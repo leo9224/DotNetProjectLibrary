@@ -9,5 +9,8 @@
         public bool is_enabled { get; set; }
         public int? type_id { get; set; }
         public int? room_id { get; set; }
+        public string? os { get; set; }
+        public string? os_version { get; set; }
+        public string? status { get; set; }
     }
 }
