@@ -25,7 +25,7 @@ namespace DotNetProjectLibrary.Authentication
 		{
 			bool valid = true;
 
-			if (password == string.Empty)
+			if (string.IsNullOrWhiteSpace(password))
 			{
 				return false;
 			}
